@@ -38,7 +38,7 @@ git clone git@github.com:mage-os/module-theme-adminhtml-switcher.git ./app/code/
 ### Feature/Page Coverage
 
 - [x] Dashboard
-- [ ] Sales
+- [x] Sales
     - [x] Orders
         - [x] Order
             - [x] Billing Address Edit
@@ -52,10 +52,10 @@ git clone git@github.com:mage-os/module-theme-adminhtml-switcher.git ./app/code/
         - [x] Shipment
     - [x] Credit Memos
         - [x] Credit Memo
-    - [ ] Billing Agreements
-        - [ ] Billing Agreement
-    - [ ] Transactions
-        - [ ] Transaction
+    - [x] Billing Agreements
+        - [x] Billing Agreement
+    - [x] Transactions
+        - [x] Transaction
 - [x] Catalog
     - [x] Products
         - [x] Product
@@ -83,7 +83,7 @@ git clone git@github.com:mage-os/module-theme-adminhtml-switcher.git ./app/code/
             - [x] Icons (folder, chevron)
                 - [x] Category State Icons / Colour
             - [x] Media Gallery
-- [ ] Customers
+- [x] Customers
     - [x] All Customers
         - [x] Customer
             - [x] Section gaps
@@ -92,8 +92,8 @@ git clone git@github.com:mage-os/module-theme-adminhtml-switcher.git ./app/code/
             - [x] Addresses 
             - [x] Orders 
             - [x] Shopping cart 
-            - [ ] Newsletter 
-            - [ ] Billing Agreements 
+            - [x] Newsletter 
+            - [x] Billing Agreements 
             - [x] Product Reviews 
             - [x] Wish List 
     - [x] Now Online
@@ -192,14 +192,13 @@ git clone git@github.com:mage-os/module-theme-adminhtml-switcher.git ./app/code/
         - [x] Theme
     - [x] Schedule
         - [x] Design Change
-- [ ] Reports
+- [x] Reports
     - Marketing
     - [x] Products in Cart
     - [x] Search Terms
         - [x] Search Term
     - [x] Abandoned Carts
-    - [ ] Newsletter Problem Reports
-        - [ ] Newsletter Problem Report
+    - [x] Newsletter Problem Reports
     - Reviews
     - [x] By Customers
         - [x] Customer Review
@@ -212,7 +211,8 @@ git clone git@github.com:mage-os/module-theme-adminhtml-switcher.git ./app/code/
     - [x] Shipping
     - [x] Refunds
     - [x] Coupons
-    - [ ] PayPal Settlement
+    - [x] PayPal Settlement
+        - [x] View Transaction
     - Customers
     - [x] Order Total
     - [x] Order Count
@@ -358,7 +358,7 @@ git clone git@github.com:mage-os/module-theme-adminhtml-switcher.git ./app/code/
 - [x] Stores > Configuration: Catalog > Catalog > Catalog Search > Button:Test Connection
 - [x] Catalog > Products > Product > Customizable Options: gaps, state bgc
 - [x] Stores > Attributes > Attribute Set > Icons
-- [ ] Refactor Switch
+- [x] Refactor Switch
 
 
 ## Changelog
