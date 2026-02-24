@@ -1,0 +1,41 @@
+
+//
+//  Customers > | Customers | All Customers > Customer > Login as Customer
+//  _____________________________________________
+
+//
+//  Variables
+//  _____________________________________________
+
+// @lac-confirm-popup-title-background-color: #ccc;
+@lac-confirm-popup-content-color: @neutral-20;
+
+
+//
+//  Common
+//  _____________________________________________
+
+& when (@media-common = true) {
+    .modal-popup.confirm.lac-confirm {
+        .modal-title {
+            border-bottom: unset;
+            padding-bottom: unset;
+        }
+
+        .modal-content {
+            .message {
+                margin-bottom: @indent__s;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            .message-warning {
+                &:before {
+                    left: @alert__padding-left;
+                }
+            }
+        }
+    }
+}

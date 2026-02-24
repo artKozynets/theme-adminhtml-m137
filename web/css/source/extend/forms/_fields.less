@@ -96,6 +96,10 @@
             max-width: unset;
         }
     }
+
+    .control-value {
+        padding-top: .7rem;
+    }
 }
 
 .admin__form-field-control,
@@ -118,6 +122,11 @@
 //  ---------------------------------------------
 
 .admin__field-label {
+    .admin__field:not(.admin__field-option) > & {
+        padding-top: .6rem;
+        line-height: @line-height__base;
+    }
+
     .required > &,
     ._required > & {
         span {

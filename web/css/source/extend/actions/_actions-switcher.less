@@ -23,6 +23,18 @@
 .admin__actions-switch-checkbox {
     &:extend(.abs-visually-hidden all);
 
+    &:not(:checked) {
+        + .admin__actions-switch-label {
+            &:before {
+                background: @actions-switcher-handler-default__background-color;
+                height: @actions-switcher-handler-default__height;
+                width: @actions-switcher-handler-default__height;
+                top: .6rem;
+                left: .6rem;
+            }
+        }
+    }
+
     &:checked {
         + .admin__actions-switch-label {
             &::before {

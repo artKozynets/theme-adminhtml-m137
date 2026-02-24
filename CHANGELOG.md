@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.3.4] - 2026-02-23
+
+### Changed
+
+- Refactor `.actions-split` button, pagebuilder standard/connected buttons to `M137 Design System` v1.1.0
+- Refactor `.admin__field-label` and `.control-value` top gap, paypal reports page
+- Refactor modal `.message` gaps, colors
+- Style `Newsletter Problems Report` and customer newsletter grid
+- Refactor `.admin__actions-switch` to to `M137 Design System` v1.1.0
+
 ## [1.3.3] - 2026-02-03
 
 ### Changed

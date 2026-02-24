@@ -272,6 +272,15 @@
         }
     }
 
+    &.confirm,
+    &.prompt {
+        .modal-inner-wrap {
+            .message.message-warning {
+                background: @alert__warning__background-color;
+            }
+        }
+    }
+
     .modal-footer {
         button.action-primary {
             &:extend(.abs-action-primary all);
